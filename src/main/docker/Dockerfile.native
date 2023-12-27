@@ -7,11 +7,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native -t quarkus/poker .
+# docker build -f src/main/docker/Dockerfile.native -t quarkus/card-games .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/poker
+# docker run -i --rm -p 8080:8080 quarkus/card-games
 #
 ###
 FROM registry.access.redhat.com/ubi8/ubi-minimal:8.9
