@@ -10,13 +10,11 @@ public class Main {
     Quarkus.run(Main.Run.class, args);
   }
 
-  /**
-   * Run
-   */
-  public class Run implements QuarkusApplication {
+  /** Run */
+  public static class Run implements QuarkusApplication {
 
     @Override
-    public int run(String... args) throws Exception {
+    public int run(String... args) {
       System.out.println("Hello " + args[0]);
       return 0;
     }
